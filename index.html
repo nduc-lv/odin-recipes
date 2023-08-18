@@ -3,13 +3,59 @@
     <head >
         <meta charset="utf-8">
         <title>Homepage</title>
+        <style>
+            html{
+                height: 100%;
+            }
+            body{
+                width: 100%;
+                height: 100vh;
+                background-image: url("https://www.allrecipes.com/thmb/MkKfYU4oim55CLp39DDuNMuyThA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                position: relative;
+                top: -3.5%;
+                margin: 0;
+                isolation: isolate;
+                
+            }
+            body::before{
+                content: '';
+                background: rgb(233, 196, 127);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100vh;
+                z-index: -1;
+                opacity: 0.5;
+            }
+            h1{
+                padding-top: 20%;
+            }
+            a, h1{
+                box-sizing: border-box;
+                width: 100%;
+                text-align: center;
+            }
+            
+            a {
+                display: inline-block;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: large;
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
         <h1>
-            Odin Recipes
+            Odin's Recipes
         </h1>
         <a href = "recipes/lasagna.html" target = "_blank" rel = "noopener noreferer">
-            Recipe
+            Lasagna Recipe
         </a>
     </body>
 </html>
